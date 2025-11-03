@@ -1,7 +1,7 @@
 import { useProducts } from '../hooks/useProducts';
-import { ProductGrid } from '../components/ProductGrid';
-import { LoadingSpinner } from '../components/LoadingSpinner';
-import { ErrorMessage } from '../components/ErrorMessage';
+import { ProductGrid } from '../components/products/ProductGrid';
+import { LoadingSpinner } from '../components/ui/LoadingSpinner';
+import { ErrorMessage } from '../components/ui/ErrorMessage';
 
 export function HomePage() {
   const { products, loading, error } = useProducts();
